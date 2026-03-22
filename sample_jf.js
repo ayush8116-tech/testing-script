@@ -9,7 +9,7 @@ board.on("ready", () => {
   const led = new Led(10);
   led.off();
 
-  if (calculate(4, 1) === 3) {
+  if (calculate(2, 1) === 3) {
     led.on();
   }
 });
