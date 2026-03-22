@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run --unstable-webserial -A sample_web.js"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "johnny-five": "npm:johnny-five@^2.1.0",
+    "serialport": "npm:serialport@^13.0.0"
+  }
+}
