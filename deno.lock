@@ -601,6 +601,13 @@
       "jsr:@std/assert@1",
       "npm:johnny-five@^2.1.0",
       "npm:serialport@13"
-    ]
+    ],
+    "packageJson": {
+      "dependencies": [
+        "npm:@serialport/parser-readline@13",
+        "npm:johnny-five@^2.1.0",
+        "npm:serialport@13"
+      ]
+    }
   }
 }
