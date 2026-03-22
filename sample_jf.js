@@ -3,13 +3,13 @@ const board = new Board(); // It will auto-detect your port on macOS
 
 const calculate = (a, b) => {
   return a + b;
-}
+};
 
 board.on("ready", () => {
   const led = new Led(10);
-  led.off()
+  led.off();
 
-  if(calculate(4, -1) === 3) {
-    led.on()
+  if (calculate(4, 1) === 3) {
+    led.on();
   }
 });
